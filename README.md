@@ -29,3 +29,7 @@ Current things (And past) that we learned
 N0thing
 ```
 ![alt text](http://www.cutmypic.com/uploads/title900225613.png)
+
+![alt text](http://webresizer.com/session/NPOnG9NbA0vXMPTa0TUn70aHB7mHpSt8/result.jpg?1544818728.79325)
+
+
