@@ -16,6 +16,11 @@ Processing 3.4
 ```
 https://processing.org/download/
 
+sdk :
+```
+Java JDK 11 (On my computer) Java JDK 8 (On class computers)
+```
+
 ### Current projects
 
 Current things (And past) that we learned
