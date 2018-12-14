@@ -28,3 +28,4 @@ Current things (And past) that we learned
 ```
 N0thing
 ```
+![alt text](http://www.cutmypic.com/uploads/title900225613.png)
