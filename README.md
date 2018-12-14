@@ -1,33 +1,3 @@
-## Repository for my Java class.
-
-Everything here is learnt from @sh-ad on github (He is my Java teacher)
-
-### Prequisites
-
-Ide : 
-```
-JetBrains IntelliJ IDEA
-```
-https://www.jetbrains.com/idea/download/
-
-ide n 2 :
-```
-Processing 3.4
-```
-https://processing.org/download/
-
-sdk :
-```
-Java JDK 11 (On my computer) Java JDK 8 (On class computers)
-```
-https://www.oracle.com/technetwork/java/javase/downloads/index.html
-
-### Current projects
-
-```
-N0thing
-```
-
 ### Репозитория для класса Java Expert
 
 Всё что сдесь написано было научено @sh-ad (Александр Шакхов) (Учитель Java)
@@ -57,6 +27,35 @@ https://processing.org/download/
 
 ```
 Н3чего
+```
+## Repository for my Java class.
+
+Everything here is learnt from @sh-ad on github (He is my Java teacher)
+
+### Prequisites
+
+Ide : 
+```
+JetBrains IntelliJ IDEA
+```
+https://www.jetbrains.com/idea/download/
+
+ide n 2 :
+```
+Processing 3.4
+```
+https://processing.org/download/
+
+sdk :
+```
+Java JDK 11 (On my computer) Java JDK 8 (On class computers)
+```
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+### Current projects
+
+```
+N0thing
 ```
 
 ![alt text](http://www.cutmypic.com/uploads/title900225613.png)
