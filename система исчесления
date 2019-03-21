@@ -1,0 +1,86 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("1: or 2:- : ");
+        int pm = scan.nextInt();
+        System.out.println("Введите систему счисления: ");
+        int ss = scan.nextInt();
+        System.out.println("Введите первое число: ");
+        int num1 = scan.nextInt();
+        System.out.println("Введите второе число: ");
+        int num2 = scan.nextInt();
+        int a, b =0;
+        if (num1 > num2){
+            a=num1;
+            b=num2;
+        }
+        else {
+            a=num2;
+            b=num1;
+        }
+
+        if(pm == 1){
+            System.out.println(plus(a, b, ss));
+        }
+        if(pm == 2){
+            System.out.println(minus(a, b, ss));
+        }
+
+    }
+    public static int minus(int a, int b, int ss){
+        int ost1=0, ost2=0, sum=0, r=0, st =1, result=0, error=0;
+        while (a>0){
+            ost1=a%10;
+            ost2=b%10;
+            if ((ost1>=ss)||(ost2>=ss))
+            {
+                error=1;
+                System.out.println("неверно введено число");
+                break;
+            }
+            sum=ost1-ost2+r;
+            ost1 = sum%ss;
+            r= sum/ss;
+            result=result+ost1*st;
+            st = st*10;
+            a/=10;
+            b/=10;
+        }
+        if (r>0){
+            result=result+r*st;
+        }
+        
+    return result;
+    }
+
+    public static int plus(int a, int b, int ss){
+        int ost1=0, ost2=0, sum=0, r=0, st =1, result=0, error=0;
+        while (a>0){
+            ost1=a%10;
+            ost2=b%10;
+            if ((ost1>=ss)||(ost2>=ss))
+            {
+                error=1;
+                System.out.println("неверно введено число");
+                break;
+            }
+            sum=ost1+ost2+r;
+            ost1 = sum%ss;
+            r= sum/ss;
+            result=result+ost1*st;
+            st = st*10;
+            a/=10;
+            b/=10;
+        }
+        if (r>0){
+            result=result+r*st;
+        }
+
+
+        return result;
+    }
+}
